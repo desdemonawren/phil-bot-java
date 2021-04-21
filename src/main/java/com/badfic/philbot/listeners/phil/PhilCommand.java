@@ -36,7 +36,7 @@ public class PhilCommand extends BasicResponsesBot<PhilResponsesConfig> {
     @Scheduled(cron = "0 1 17 * * WED", zone = "GMT")
     public void goodMorning() {
         TextChannel general = philJda.getTextChannelsByName("general", false).get(0);
-        general.sendMessage("https://cdn.discordapp.com/attachments/741030569307275436/788936984466161674/humpygrinch.png").queue();
+        general.sendMessage("https://cdn.discordapp.com/attachments/726261176584896513/826872462523760720/mullethumpygrinch.png").queue();
     }
 
     @Override
